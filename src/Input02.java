@@ -16,6 +16,7 @@ public class Input02 {
                 null,
                 null,
                 "Type something here.");
+        System.out.println(input1);
         
         
         String[] acceptableValues = {"Choice 1", "Choice 2", "Choice 3"};
@@ -25,7 +26,7 @@ public class Input02 {
                 2,
                 null,
                 acceptableValues,
-                acceptableValues[1]);
+                acceptableValues[0]);
                 
     }
 }

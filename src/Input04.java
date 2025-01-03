@@ -11,12 +11,17 @@ public class Input04 {
         
         
         //Does this line contain "BlueBumper"?
-        System.out.println(sc.findInLine("BlueBumper"));
+        String in = sc.findInLine("BlueBumper");
+        System.out.println(in != null ? "Found: " + in : "Not found");
         //Store the next two numbers as xPosition and yPosition
         //Print these positions
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter X coordinate:");
+        int xPos = scanner.nextInt();
+        System.out.println("Enter Y coordinate:");
+        int yPos = scanner.nextInt();
         
-        
-        System.out.println("X: "        +", Y: "        );
+        System.out.println("X: " + xPos + ", Y: " + yPos);
         sc.close();
     }    
 }
